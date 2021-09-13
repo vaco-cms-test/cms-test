@@ -17,7 +17,6 @@ export default class Home extends Component {
             {cats.map((cat, k) => (
               <li key={k}>
                 <h2>{cat.name}</h2>
-                <p>{cat.description}</p>
               </li>
             ))}
           </ul>
